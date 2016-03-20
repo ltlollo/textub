@@ -1,0 +1,15 @@
+\documentclass{article}
+
+#bash
+#   echo "\title{$TITLE}"
+#   echo "\author{$AUTHOR}"
+
+\begin{document}
+\maketitle
+
+\section{Index}
+\tableofcontents
+
+#find tex/ -name '*.tex' -printf '\\input{../%p}\n'
+
+\end{document}
