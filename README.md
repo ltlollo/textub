@@ -4,8 +4,12 @@ A latex stub project
 
 ##Usage
 
-Put documents in tex/
+put documents in tex/
 
-Set AUTHOR, TITLE and OUT in Makefile
+set AUTHOR, TITLE and OUT in Makefile
 
-Run make
+run make
+
+## Deps
+
+coreutils, templ, latexmk
